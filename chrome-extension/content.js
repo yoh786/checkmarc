@@ -20,6 +20,7 @@ chrome.runtime.onMessage.addListener(
 
 		var setgroup = "Service Desk";
 		var myname = "Hussain, Yousuf";
+		var textfteam = document.getElementById('sys_display.incident.assignment_group');
 
 		console.log(setgroup, myname);
 		console.log("vars init complete");
@@ -31,7 +32,9 @@ chrome.runtime.onMessage.addListener(
 // This is the important line and if block; it seems it is the main launch set when 'clicked_browser_action'
 		if( request.message === "clicked_browser_action" ) {
 
-			//Gen'ing letter
+			//add text
+			textfteam.value = "Service Desk";
+			//There should be something here to run that report getReference and make assignment group bettter.
 
 			//functional code
 			console.log("finish on click block");
