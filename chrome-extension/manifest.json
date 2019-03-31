@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "CheckMarc",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "This extension will fill in the Service Desk team, saving you valuable time and brainpower.",
 	"content_scripts": [
 		{

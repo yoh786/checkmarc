@@ -1,7 +1,7 @@
 
 // Content.js
 // This script is functional code that can be executed in a webpage
-console.log("init checkmarc is ver 0.1b");
+console.log("init checkmarc is ver 0.2b");
 
 //example code
 
@@ -26,7 +26,7 @@ chrome.runtime.onMessage.addListener(
 		console.log("vars init complete");
 
 
-		console.log("add listner complete");
+		console.log("add listener complete");
 
 
 // This is the important line and if block; it seems it is the main launch set when 'clicked_browser_action'
@@ -37,7 +37,7 @@ chrome.runtime.onMessage.addListener(
 			//There should be something here to run that report getReference and make assignment group bettter.
 
 			//functional code
-			console.log("finish on click block");
+			console.log("finish on-click block");
 
 		}
 	}
