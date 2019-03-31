@@ -21,9 +21,6 @@
 		"description": "Fills the assignment_group field"
 		}
 	},
-	"permissions": {
-		"activeTab"
-	},
 	"background": {
 		"scripts": ["background.js"]
 	}
