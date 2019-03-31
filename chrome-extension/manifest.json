@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "CheckMarc",
-	"version": "0.3",
+	"version": "0.4",
 	"description": "This extension will fill in the Service Desk team, saving you valuable time and brainpower.",
 	"content_scripts": [
 		{
@@ -21,6 +21,7 @@
 		"description": "Fills the assignment_group field"
 		}
 	},
+	"permissions": ["activeTab"],
 	"background": {
 		"scripts": ["background.js"]
 	}
