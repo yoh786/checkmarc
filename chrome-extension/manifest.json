@@ -1,17 +1,28 @@
 {
 	"manifest_version": 2,
-	"name": "sYmon Helper",
-	"version": "0.1",
+	"name": "CheckMarc",
+	"version": "0.4",
+	"description": "This extension will fill in the Service Desk team, saving you valuable time and brainpower.",
 	"content_scripts": [
 		{
-		"matches": ["<all_urls>"],
+		"matches": ["https://hfhs.service-now.com/incident.do*"],
 		"js": ["jquery-331.slim.js","content.js"]
 		}
 	],
 	"browser_action": {
 		"default_icon": "icon.png"
 	},
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F",
+				"mac": "MacCtrl+Shift+F"
+			},
+		"description": "Fills the assignment_group field"
+		}
+	},
+	"permissions": ["activeTab"],
 	"background": {
 		"scripts": ["background.js"]
-	}	
-}	
+	}
+}
