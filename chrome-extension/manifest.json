@@ -6,7 +6,7 @@
 	"icons": {
 		"16": "icos/gren16.png",
 		"48": "icos/gren48.png",
-		"128": "icos/gren128"
+		"128": "icos/gren128.png"
 	},
 	"content_scripts": [
 		{
