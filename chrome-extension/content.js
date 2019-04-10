@@ -1,7 +1,7 @@
 
 // Content.js
 // This script is functional code that can be executed in a webpage
-console.log("init checkmarc is ver 0.4b");
+console.log("init checkmarc is ver 0.9b");
 
 //example code
 
