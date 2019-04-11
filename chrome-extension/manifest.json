@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "CheckMarc",
 	"version": "0.9",
-	"description": "This extension will fill in the Service Desk team, saving you valuable time and brainpower.",
+	"description": "This extension will fill in the Assignment Group field with (Service Desk), saving you valuable time and brainpower.",
 	"icons": {
 		"16": "icos/gren16.png",
 		"48": "icos/gren48.png",
