@@ -1,8 +1,13 @@
 {
 	"manifest_version": 2,
 	"name": "CheckMarc",
-	"version": "0.4",
+	"version": "0.9",
 	"description": "This extension will fill in the Service Desk team, saving you valuable time and brainpower.",
+	"icons": {
+		"16": "icos/gren16.png",
+		"48": "icos/gren48.png",
+		"128": "icos/gren128.png"
+	},
 	"content_scripts": [
 		{
 		"matches": ["https://hfhs.service-now.com/incident.do*"],
@@ -10,8 +15,14 @@
 		}
 	],
 	"browser_action": {
-		"default_icon": "icon.png"
+		"default_icon": {
+			"16": "icos/gren16.png",
+			"24": "icos/gren24.png",
+			"32": "icos/gren32.png"
+		},
+		"default_title": "CheckMarc"
 	},
+	"author": "Y0h",
 	"commands": {
 		"_execute_browser_action": {
 			"suggested_key": {
@@ -23,6 +34,7 @@
 	},
 	"permissions": ["activeTab"],
 	"background": {
-		"scripts": ["background.js"]
+		"scripts": ["background.js"],
+		"persistent": false
 	}
 }
