@@ -34,6 +34,8 @@ Bug-fix and feature-add will now be performed on a crowd-effort, rolling basis; 
 
 CheckMarc is licensed under the GNU  General Public License.
 
+------------------
+
 Guide
 ======
 This section details installation, configuration, and usage.
@@ -58,6 +60,8 @@ Press keyboard press when in box; press 's' so the function runs; depending on t
 **Pics**
 
 **Gifs**
+
+--------------------------
 
 FAQ
 =====
