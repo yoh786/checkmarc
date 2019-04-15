@@ -43,8 +43,8 @@ This section details installation, configuration, and usage.
 INSTALLATION
 -----
 
-1. lather
-2. rinse
+1. Launch Google Chrome on your PC
+2. Click the 3 dots for the Menu -> More Tools -> click 'Extensions'
 3. repeat
 
 **Configuration**
