@@ -30,7 +30,7 @@ CURRENT STATE
 
 Checkmarc is currently in final testing and packaging for a consumer release.
 
-Bug-fix and feature-add will now be performed on a crowd-effort, rolling basis; there are other branches set up for these development phases.
+- Bug-fix and feature-add will now be performed on a crowd-effort, rolling basis; there are other branches set up for these development phases.
 
 CheckMarc is licensed under the GNU  General Public License.
 
