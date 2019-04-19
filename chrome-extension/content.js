@@ -18,7 +18,7 @@ chrome.runtime.onMessage.addListener(
 
 		//ALL of this is done on browser action click
 
-		var setgroup = "Service Desk";
+		var setgroup = "Service De";
 		var myname = "Hussain, Yousuf";
 		var textfteam = document.getElementById('sys_display.incident.assignment_group');
 
@@ -33,7 +33,7 @@ chrome.runtime.onMessage.addListener(
 		if( request.message === "clicked_browser_action" ) {
 
 			//add text
-			textfteam.value = "Service Desk";
+			textfteam.value = setgroup;
 			//There should be something here to run that report getReference and make assignment group bettter.
 
 			//functional code
