@@ -48,26 +48,26 @@ This section details installation, configuration, and usage.
 INSTALLATION
 -----
 
-1. Download zip file from GitHub
-  - Download (clone) as a zip file from this Github Repo: https://github.com/yoh786/checkmarc
-  - You can save to any permanent locations (note: folder must not be deleted or the extension will not load, put it somewhere persistent)
-  - unzip the archive; it must be unzipped to install in Chrome
-2. Access the Extension Settings
-  - launch Chrome Browser on your computer
-  - Click the 3 dots for the Menu
-  - (in Menu) -> click 'More Tools' -> click 'Extensions'
-  - You will see a page with the extensions you have installed, and some buttons and a search on top
-3. Load the Extension into Chrome
-  - Click the button in second row for **"load unpacked extension"**
-  - You will need to navigate to the folder you unzipped to earlier; make sure to drill down to the folder containing *manifest.json*
-  - Load this folder by accepting; you should see an entry for the extension with a green check icon. You should also see the same icon load in next to your address bar.
-  - The extension is now installed
-4. Test the extension
-  - Load up a new ticket (It needs to be a window without toolbars)
-  - To get a ticket without the Toolbars, you can middle click the 'new ticket' link; you can also create a bookmark directly to the required page. (pull out 'nav_to_do' from the URL)
-  - Scroll down to the 'Assignment Group' field; place your mouse cursor in the text box
-  - Press **Ctrl-Shift-S** so the plugin runs, the field should now be filled in with **"Service De"**
-  - *The plug in is confirmed working*
+1. **Download zip file from GitHub**
+    - Download (clone) as a zip file from this Github Repo: https://github.com/yoh786/checkmarc
+    - You can save to any permanent locations (note: folder must not be deleted or the extension will not load, put it somewhere persistent)
+    - unzip the archive; it must be unzipped to install in Chrome
+2. **Access the Extension Settings**
+    - launch Chrome Browser on your computer
+    - Click the 3 dots for the Menu
+    - (in Menu) -> click 'More Tools' -> click 'Extensions'
+    - You will see a page with the extensions you have installed, and some buttons and a search on top
+3. **Load the Extension into Chrome**
+    - Click the button in second row for **"load unpacked extension"**
+    - You will need to navigate to the folder you unzipped to earlier; make sure to drill down to the folder containing *manifest.json*
+    - Load this folder by accepting; you should see an entry for the extension with a green check icon. You should also see the same icon load in next to your address bar.
+    - The extension is now installed
+4. **Test the extension**
+    - Load up a new ticket (It needs to be a window without toolbars)
+    - To get a ticket without the Toolbars, you can middle click the 'new ticket' link; you can also create a bookmark directly to the required page. (pull out 'nav_to_do' from the URL)
+    - Scroll down to the 'Assignment Group' field; place your mouse cursor in the text box
+    - Press **Ctrl-Shift-S** so the plugin runs, the field should now be filled in with **"Service De"**
+    - *The plug in is confirmed working*
 
 **Configuration**
 In its current state, CheckMarc currently requires no user configuration.
